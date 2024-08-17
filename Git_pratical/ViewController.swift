@@ -13,6 +13,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         print("hello world")
         print("I'm going to checkout the last version.")
+        func doNothing(){
+            print("doNothing")
+        }
     }
 
 
