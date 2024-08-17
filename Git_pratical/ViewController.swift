@@ -17,6 +17,13 @@ class ViewController: UIViewController {
             print("doNothing")
         }
     }
+    
+    override func isProxy() -> Bool {
+        
+        print("this is proxy")
+        return false
+        
+    }
 
 
 }
